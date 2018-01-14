@@ -6,9 +6,9 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-
-<header>
-    <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
-    <p><?php bloginfo('description'); ?></p>
-    <?php get_template_part('template_parts/navi'); ?>
-</header>
+<div class="site">
+    <header>
+        <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
+        <p><?php bloginfo('description'); ?></p>
+        <?php get_template_part('template_parts/navi'); ?>
+    </header>

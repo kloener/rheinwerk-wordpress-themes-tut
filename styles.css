@@ -5,6 +5,54 @@
 	Tags: custom-theme
 */
 
+* {
+	box-sizing: border-box;
+}
+
 html {
 	font: 16px Helvetica, Arial, sans-serif;
+}
+body {
+
+}
+header {
+	padding: 1em;
+}
+main {
+	margin: 1em 0;
+}
+article {
+	padding: 1em;
+	margin-bottom: 1em;
+}
+aside {
+	padding: 1em;
+	background-color: #CCCCCC;
+}
+footer {
+	padding: 1em;
+	background-color: #999999;
+}
+
+@media screen and (min-width: 600px) {
+
+	.site {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	/* The Loop */
+	.articles {
+		float: left;
+		width: 60%;
+	}
+
+	aside {
+		float: right;
+		width: 36%;
+	}
+
+	footer {
+		clear: both;
+	}
 }
