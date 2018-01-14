@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="de">
-<head></head>
-<body>
-
-<header>
-<h1><?php bloginfo('name'); ?></h1>
-<p>Slogan</p>
-<nav>Navigation</nav>
-</header>
+<?php get_header(); ?>
 <main>
-<article></article>
-<aside></aside>
-</main>
-<footer><p>Copyright</p></footer>
+<article>
 
-</body>
-</html>
+</article>
+<?php get_sidebar(); ?>
+</main>
+<?php get_footer(); ?>
