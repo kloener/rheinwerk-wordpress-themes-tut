@@ -17,6 +17,7 @@ body {
 }
 header {
 	padding: 1em;
+	background-color: rgb(148, 171, 204);
 }
 main {
 	margin: 1em 0;
