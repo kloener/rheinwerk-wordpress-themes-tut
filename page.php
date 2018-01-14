@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <main>
 <article>
-    <p>Hauptinhalt index.php</p>
+    <p>Hauptinhalt page.php</p>
 </article>
 <?php get_sidebar(); ?>
 </main>
