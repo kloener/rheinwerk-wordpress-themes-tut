@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="<?php bloginfo('language'); ?>">
 <head>
 <title><?php wp_title(''); ?> <?php bloginfo('name'); ?></title>
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body>
 
